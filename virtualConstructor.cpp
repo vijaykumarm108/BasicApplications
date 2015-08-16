@@ -4,7 +4,7 @@ using namespace std;
 
 struct A{
 A(){ cout<< "A()"<<endl;}
-~A(){ cout << "~A()"<<endl;}
+virtual ~A(){ cout << "~A()"<<endl;}
 };
 struct B:A{
 B(){cout<< "B()"<<endl;}
