@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+class Class{};
 
 int main(){
 Class *object = new Class();
