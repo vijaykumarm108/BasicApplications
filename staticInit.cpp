@@ -9,8 +9,8 @@ class A{
 int main(){
 A *aa;
 A *bb=aa;
-delete aa;
-aa=NULL;
+//delete aa; //By Deleting aa pointer becomes Dangling
+//aa=NULL;
 cout << "Dingling pointer= "<< aa << endl;
 
 }
