@@ -9,7 +9,7 @@ static int i;
 //A(int j){
 //i=j;
 };
-
+int A::i=8;
 int main(){
 A aObj;
 //aObj.i=20;
